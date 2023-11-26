@@ -1,0 +1,142 @@
+body {
+    margin: 10px;
+    background: #1C1C1C;
+  
+}
+
+.container{
+    background: #273549; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding:20px;
+    margin-top: 100px;
+    
+    
+}
+
+label,
+input{
+    margin-bottom: 10px;
+    text-align: center;
+   
+
+}
+
+
+.inputs-container {
+    display: flex; 
+    justify-content: space-around;
+    margin-top:40px;
+
+ 
+  
+   
+    
+}
+.password-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+#passwordLength,
+#pass-One,
+#pass-Two {
+    margin:10px;
+    background: #374151;
+    border-radius: 6px;
+    height: 30px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    padding: 2px;
+    width: 70%;
+}
+
+#passwordLength {
+    width: 150px;
+    margin-top: -10px;
+    
+
+    
+}
+#pass-One,
+#pass-Two
+{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 40px;
+    
+}
+h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #D5D4D8;
+    font-weight: lighter;
+    margin: 2px 12px 20px 10px;
+}  
+.first-half{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+   font-family: 'Karla', sans-serif;
+   
+     
+}
+.second-half{
+    color:#4ADF86;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Karla', sans-serif;
+
+    
+}
+
+
+
+#pass-btn{
+    background: #10B981;
+    color: #FFFFFF;
+    font-size: 16px;
+     font-family: 'Inter', sans-serif;
+     font-weight: 600;
+     border:none; 
+     border-radius: 3px;
+     margin: auto;
+     padding: 6px 16px 6px 16px;
+     margin-bottom: 40px;
+     margin-top: 30px;
+}
+
+label{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #D5D4D8;
+    font-weight: lighter;
+    margin-top: -4px;
+}
+#copy-btn1,
+#copy-btn2{
+
+    background: #10B981;
+    color: #FFFFFF;
+    font-size: 12px;
+     font-family: 'Inter', sans-serif;
+     font-weight: lighter;
+     border:none; 
+     border-radius: 3px;
+     margin: auto;
+     padding: 6px 16px 6px 16px;
+     margin-bottom: 40px;
+     margin-top: 20px;
+     display: flex; 
+     justify-content: space-around;
+}
+#showPassword{
+margin-bottom: 10px;
+}
