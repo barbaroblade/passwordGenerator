@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 10px;
     background: #1C1C1C;
+    text-align: center;
+   
   
 }
 
@@ -10,7 +18,8 @@ body {
     flex-direction: column;
     align-items: center;    
     padding:20px;
-    margin-top: 100px;
+    margin-top: 10px;
+    
     
     
 }
@@ -28,6 +37,9 @@ input{
     display: flex; 
     justify-content: space-around;
     margin-top:40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    
 
  
   
@@ -75,14 +87,15 @@ input{
 }
 h5{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #D5D4D8;
     font-weight: lighter;
-    margin: 2px 12px 20px 10px;
+    margin: 30px 12px 70px 10px;
+
 }  
 .first-half{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
    font-family: 'Karla', sans-serif;
    
@@ -90,10 +103,10 @@ h5{
 }
 .second-half{
     color:#4ADF86;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     font-family: 'Karla', sans-serif;
-
+  
     
 }
 
@@ -102,23 +115,23 @@ h5{
 #pass-btn{
     background: #10B981;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 26px;
      font-family: 'Inter', sans-serif;
-     font-weight: 600;
+     font-weight: 400;
      border:none; 
      border-radius: 3px;
      margin: auto;
-     padding: 6px 16px 6px 16px;
+     padding: 6px 26px 6px 26px;
      margin-bottom: 40px;
      margin-top: 30px;
 }
 
 label{
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: #D5D4D8;
     font-weight: lighter;
-    margin-top: -4px;
+    margin-top: -7px;
 }
 #copy-btn1,
 #copy-btn2{
@@ -138,5 +151,36 @@ label{
      justify-content: space-around;
 }
 #showPassword{
-margin-bottom: 10px;
+margin-bottom: 80px;
+}
+/* Media Queries */
+@media (max-width: 390px) {
+    .container {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    .inputs-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px; /* Adjusted margin-top for smaller screens */
+    }
+
+    .password-label {
+        margin-left: 0; /* Reset margin-left for smaller screens */
+    }
+
+    #passwordLength,
+    #pass-One,
+    #pass-Two {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 844px) {
+    .container,
+    .containerInput,
+    .containerConversion {
+        padding: 30px;
+    }
 }
